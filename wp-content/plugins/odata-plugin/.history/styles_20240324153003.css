@@ -1,0 +1,38 @@
+/* Customize table appearance */
+table.people {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.people th,
+table.people td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+table.people th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+table.people tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Adjust table headers */
+table.people th {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Adjust table cells */
+table.people td {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Hover effect on table rows */
+table.people tr:hover {
+    background-color: #e6e6e6;
+}

@@ -1,0 +1,34 @@
+/* Style for the container of the people list */
+.odata-people-list {
+    margin-bottom: 20px; /* Add space at the bottom */
+}
+
+/* Style for the heading of the list */
+.odata-people-list h3 {
+    font-size: 1.5em; /* Larger font size */
+    margin-bottom: 10px; /* Add space below the heading */
+}
+
+/* Style for each person in the list */
+.odata-people-list .person {
+    margin-bottom: 15px; /* Add space between each person */
+    border: 1px solid #ccc; /* Add a border around each person */
+    padding: 10px; /* Add padding inside each person */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style for the name of the person */
+.odata-people-list .person p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for the strong tag within each person */
+.odata-people-list .person strong {
+    font-weight: bold; /* Make text bold */
+    margin-right: 5px; /* Add space to the right of the strong tag */
+}
+
+/* Style for the city name */
+.odata-people-list .person .city {
+    color: #666; /* Change color of city name */
+}
